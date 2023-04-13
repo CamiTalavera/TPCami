@@ -1,0 +1,73 @@
+.navbar {
+    background: rgb(0, 187, 246);
+    background:linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+}
+
+.body {
+    background: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+font-family: 'Dosis', sans-serif;
+font-family: 'DynaPuff', cursive;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+/* SLIDER IMAGENES */
+.carousel-item {
+    max-height: 39rem;
+}
+
+/* COLABORE */
+.btn-success {
+    border-radius: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* FORMULARIO */
+#bg-contacto {
+    position: relative;
+    top: -130px;
+}
+#seccion-contacto {
+    background-color: 0099ff;
+    min-height: 500px;
+    position: relative;
+}
+
+#contenedor-formulario {
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* MEDIA QUERIES**************************************************** */
+
+/* PANTALLA SM */
+@media (max-width:768px) {
+    #intro {
+        width: 90% !important;
+    }
+    .colabore-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+
+/* PANTALLA extra SM */
+@media (max-width:576px) {
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+@media (max-width 800px) and (orientation: landscape){
+    .body{
+        flex-wrap: wrap;
+        text-align: left;
+        justify-content: left;
+    }
+}
